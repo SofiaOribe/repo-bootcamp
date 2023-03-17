@@ -1,12 +1,13 @@
 const FactorialBreak = () => {
     let f = 1;
-    let i=1;
-    while(i<=10) {
-        if(i===10){
+    let i=10;
+    while(true) {
+        f*=i;
+        i--;
+        if(i===1){
             break;
         }
-        f = f*i;
-        i++;
+
     }
 
     console.log(`El factorial de 10 es: ${f}`);
