@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node ./primer-trabajo/index.js",
     "info": "node ./segundo-trabajo/datos.js",
+    "factorial-for": "node ./tercer-trabajo/factorial-for.js",
+    "factorial-while": "node ./tercer-trabajo/factorial-while.js",
+    "factorial-break": "node ./tercer-trabajo/factorial-break.js",
     "saludar": "node hola_mundo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
